@@ -1,0 +1,9 @@
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/uninstall.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/turtlebot3_description_uninstall.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/test.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/edit_cache.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/rebuild_cache.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/list_install_components.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/install.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/install/local.dir
+/home/anish/ps1_ws/src/build/turtlebot3_description/CMakeFiles/install/strip.dir

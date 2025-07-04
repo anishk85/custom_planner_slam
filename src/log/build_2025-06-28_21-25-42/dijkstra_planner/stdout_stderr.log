@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target dijkstra_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libdijkstra_planner.so[0m
+[100%] Built target dijkstra_planner
+-- Install configuration: ""
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/lib/libdijkstra_planner.so
+-- Set runtime path of "/home/anish/ps1_ws/src/install/dijkstra_planner/lib/libdijkstra_planner.so" to ""
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/include/
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/include//dijkstra_planner
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/include//dijkstra_planner/dijkstra_planner.hpp
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/dijkstra_planner_plugin.xml
+-- Up-to-date: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/dijkstra_planner_plugin.xml
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/library_path.sh
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/library_path.dsv
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/ament_index/resource_index/package_run_dependencies/dijkstra_planner
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/ament_index/resource_index/parent_prefix_path/dijkstra_planner
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/ament_prefix_path.sh
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/path.sh
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/environment/path.dsv
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/local_setup.bash
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/local_setup.sh
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/local_setup.zsh
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/local_setup.dsv
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/package.dsv
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/ament_index/resource_index/packages/dijkstra_planner
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dijkstra_planner
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/cmake/dijkstra_plannerConfig.cmake
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/cmake/dijkstra_plannerConfig-version.cmake
+-- Installing: /home/anish/ps1_ws/src/install/dijkstra_planner/share/dijkstra_planner/package.xml

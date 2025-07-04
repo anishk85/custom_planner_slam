@@ -1,0 +1,58 @@
+[0.068s] Invoking command in '/home/anish/ps1_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/turtlebot3_node
+[0.717s] -- The C compiler identification is GNU 11.4.0
+[0.717s] -- The CXX compiler identification is GNU 11.4.0
+[0.717s] -- Detecting C compiler ABI info
+[0.717s] -- Detecting C compiler ABI info - done
+[0.717s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.717s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.717s] -- Detecting CXX compiler ABI info
+[0.718s] -- Detecting CXX compiler ABI info - done
+[0.718s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.718s] -- Detecting CXX compile features
+[0.718s] -- Detecting CXX compile features - done
+[0.718s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.718s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.898s] -- Found dynamixel_sdk: 3.8.4 (/opt/ros/humble/share/dynamixel_sdk/cmake)
+[0.907s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.000s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.016s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.044s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.189s] -- Found message_filters: 4.3.7 (/opt/ros/humble/share/message_filters/cmake)
+[1.284s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.292s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.341s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.362s] -- Looking for pthread.h
+[1.477s] -- Looking for pthread.h - found
+[1.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.604s] -- Found Threads: TRUE  
+[1.674s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.697s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.720s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.735s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[1.752s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.862s] -- Found turtlebot3_msgs: 2.4.0 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[1.944s] -- Configuring done
+[1.962s] -- Generating done
+[1.968s] -- Build files have been written to: /home/anish/ps1_ws/src/build/turtlebot3_node
+[1.978s] Invoked command in '/home/anish/ps1_ws/src/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/turtlebot3_node
+[1.980s] Invoking command in '/home/anish/ps1_ws/src/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/src/build/turtlebot3_node -- -j16 -l16
+[2.046s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.046s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.046s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[2.046s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.047s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.047s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[2.047s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[2.047s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[2.047s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[2.047s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[2.047s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[19.305s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[19.810s] [ 85%] Built target turtlebot3_node_lib
+[19.829s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[22.160s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[23.311s] [100%] Built target turtlebot3_ros

@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/anish/ps1_ws/src/dijkstra_planner/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/anish/ps1_ws/src/build/dijkstra_planner
+[ 50%] [32mBuilding CXX object CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o[0m
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual void dijkstra_planner::DijkstraPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:21:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter_if_not_declared[m[K’ is not a member of ‘[01m[Knav2_util[m[K’
+   21 |   nav2_util::[01;31m[Kdeclare_parameter_if_not_declared[m[K(
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter_if_not_declared[m[K’ is not a member of ‘[01m[Knav2_util[m[K’
+   23 |   nav2_util::[01;31m[Kdeclare_parameter_if_not_declared[m[K(
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvoid dijkstra_planner::DijkstraPlanner::worldToMap(double, double, int&, int&)[m[K’:
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:223:37:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kunsigned int&[m[K’ to a value of type ‘[01m[Kint[m[K’
+  223 |   if (!costmap_->worldToMap(wx, wy, [01;31m[Kmx[m[K, my)) {
+      |                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+                 from [01m[K/home/anish/ps1_ws/src/dijkstra_planner/include/dijkstra_planner/dijkstra_planner.hpp:13[m[K,
+                 from [01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:183:56:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kbool nav2_costmap_2d::Costmap2D::worldToMap(double, double, unsigned int&, unsigned int&) const[m[K’
+  183 |   bool worldToMap(double wx, double wy, [01;36m[Kunsigned int & mx[m[K, unsigned int & my) const;
+      |                                         [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

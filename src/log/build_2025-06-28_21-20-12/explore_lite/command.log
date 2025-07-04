@@ -1,0 +1,3 @@
+Invoking command in '/home/anish/ps1_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/explore_lite
+Invoked command in '/home/anish/ps1_ws/src/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/m-explore-ros2/explore -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/explore_lite
+Invoking command in '/home/anish/ps1_ws/src/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/src/build/explore_lite -- -j16 -l16

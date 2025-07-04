@@ -1,0 +1,7 @@
+<library path="dijkstra_planner">
+  <class name="dijkstra_planner::DijkstraPlanner"
+         type="dijkstra_planner::DijkstraPlanner"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>Dijkstra path planner plugin for Nav2</description>
+  </class>
+</library>

@@ -1,0 +1,22 @@
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual void dijkstra_planner::DijkstraPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:21:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter_if_not_declared[m[K’ is not a member of ‘[01m[Knav2_util[m[K’
+   21 |   nav2_util::[01;31m[Kdeclare_parameter_if_not_declared[m[K(
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:23:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter_if_not_declared[m[K’ is not a member of ‘[01m[Knav2_util[m[K’
+   23 |   nav2_util::[01;31m[Kdeclare_parameter_if_not_declared[m[K(
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvoid dijkstra_planner::DijkstraPlanner::worldToMap(double, double, int&, int&)[m[K’:
+[01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:223:37:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kunsigned int&[m[K’ to a value of type ‘[01m[Kint[m[K’
+  223 |   if (!costmap_->worldToMap(wx, wy, [01;31m[Kmx[m[K, my)) {
+      |                                     [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+                 from [01m[K/home/anish/ps1_ws/src/dijkstra_planner/include/dijkstra_planner/dijkstra_planner.hpp:13[m[K,
+                 from [01m[K/home/anish/ps1_ws/src/dijkstra_planner/src/dijkstra_planner.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:183:56:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kbool nav2_costmap_2d::Costmap2D::worldToMap(double, double, unsigned int&, unsigned int&) const[m[K’
+  183 |   bool worldToMap(double wx, double wy, [01;36m[Kunsigned int & mx[m[K, unsigned int & my) const;
+      |                                         [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
