@@ -1,4 +1,0 @@
-Invoking command in '/home/anish/ps1_ws/src/build/dijkstra_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/dijkstra_planner -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/dijkstra_planner
-Invoked command in '/home/anish/ps1_ws/src/build/dijkstra_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/dijkstra_planner -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/dijkstra_planner
-Invoking command in '/home/anish/ps1_ws/src/build/dijkstra_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/src/build/dijkstra_planner -- -j16 -l16
-Invoked command in '/home/anish/ps1_ws/src/build/dijkstra_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anish/ps1_ws/src/build/dijkstra_planner -- -j16 -l16

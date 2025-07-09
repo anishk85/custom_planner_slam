@@ -1,1 +1,0 @@
-Invoking command in '/home/anish/ps1_ws/src/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/anish/ps1_ws/src/m-explore-ros2/map_merge -DCMAKE_INSTALL_PREFIX=/home/anish/ps1_ws/src/install/multirobot_map_merge

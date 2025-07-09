@@ -1,7 +1,0 @@
-[console_scripts]
-autonomous_explorer = turtlebot3_autonomous_exploration.autonomous_explorer:main
-exploration_controller = turtlebot3_autonomous_exploration.exploration_controller:main
-exploration_recovery = turtlebot3_autonomous_exploration.exploration_recovery:main
-exploration_supervisor = turtlebot3_autonomous_exploration.exploration_supervisor:main
-frontier_detector = turtlebot3_autonomous_exploration.frontier_detector:main
-

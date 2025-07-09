@@ -1,1 +1,0 @@
-action_msgs:geometry_msgs:launch:launch_ros:nav2_map_server:nav2_msgs:nav2_navigation:nav_msgs:python3-numpy:python3-opencv:rclpy:rclpy_action:sensor_msgs:std_msgs:tf2_geometry_msgs:tf2_ros:turtlebot3_cartographer:turtlebot3_gazebo:turtlebot3_navigation2:visualization_msgs
