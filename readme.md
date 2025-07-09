@@ -6,9 +6,11 @@
 
 You can view the complete demonstration here:
 
-<video src="/home/anish/ps1_dj_ws/ps4_complete.mp4" controls autoplay loop width="640">
-    Your browser does not support the video tag.
-</video>
+<div align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OXXxHtwPjnc?autoplay=1&mute=1&loop=1&playlist=OXXxHtwPjnc" title="TurtleBot3 Simulation Demo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+</div>
 
 # 🚀 **Launch Commands**
 
