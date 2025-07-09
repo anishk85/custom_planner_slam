@@ -8,8 +8,8 @@ You can view the complete demonstration here:
 
 <div align="center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OXXxHtwPjnc?autoplay=1&mute=1&loop=1&playlist=OXXxHtwPjnc" title="TurtleBot3 Simulation Demo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+[![Custom Planner Algorithm Dijkstra's ALgorithm*](https://img.youtube.com/vi/OXXxHtwPjnc/0.jpg)](https://youtu.be/OXXxHtwPjnc)  
+*Custom Planner Algorithm Dijkstra's ALgorithm*
 </div>
 
 # 🚀 **Launch Commands**
